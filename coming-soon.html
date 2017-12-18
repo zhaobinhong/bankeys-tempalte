@@ -1,0 +1,157 @@
+<!doctype html>
+<html><head>
+	<!-- Basic Page Needs -->
+        <meta charset="utf-8">
+        <title>Appcorner - Comming soon</title>
+        <meta name="description" content="A Template by Gozha.net">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="Gozha.net">
+
+    <!-- Mobile Specific Metas-->
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="telephone=no" name="format-detection">
+    
+    <!-- Fonts -->
+        <!-- SourceSansPro -->
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic' rel='stylesheet' type='text/css'>
+        <!-- Icomoon -->
+        <link href="css/icomoon.css" rel="stylesheet" />
+        <!--  Font awesome 4-->
+        <link href="css/font-awesome.css" rel="stylesheet" />
+    
+    <!-- Stylesheets -->
+    	
+        <!-- Bootstrap 3 -->
+    	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Custom -->
+        <link href="css/base.css?v=1" rel="stylesheet" />
+        <link href="css/style.css?v=1" rel="stylesheet" />
+		
+		<!-- Basic JavaScript-->
+		<!-- Modernizr -->
+		<script src="js/modernizr.custom.05768.js"></script>
+    
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries --> 
+    <!--[if lt IE 9]> 
+    	<script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.js"></script> 
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.3.0/respond.js"></script>		
+    <![endif]-->
+ 
+</head>
+
+<body class='coming-soon'>
+
+    <header class='header'>
+            <div class='container'>
+                <p class='call-number'>You can just call us <span>+1-888-555-5555</span></p>
+                <!-- social icon -->
+                <ul class='social-icon pull-right'>
+                    <li><a href="#"><i class='icon-instagram'></i></a></li>
+                    <li><a href="#"><i class='icon-dribbble'></i></a></li>
+                    <li><a href="#"><i class='icon-tumblr'></i></a></li>
+                    <li><a href="#"><i class='icon-linkedin'></i></a></li>
+                    <li><a href="#"><i class='icon-pinterest'></i></a></li>
+                    <li><a href="#"><i class='icon-googleplus'></i></a></li>
+                    <li><a href="#"><i class='icon-facebook'></i></a></li>
+                    <li><a href="#"><i class='icon-twitter'></i></a></li>
+                </ul><!-- end of social icon list -->
+
+                <div class='main-zone'>
+                    <div class="corner"></div>
+                    <div class='corner-line'></div>
+                    
+                    <a href="index.html" class='logo'>AppCorner</a>
+                   <div class='current-page'>
+                      <hr class="top-devider" />
+
+                      <h1>coming soon</h1>
+                      <p class="info">we are under construction and almost ready</p>
+
+                        <!-- Countdown dashboard start -->
+                        <div id="countdown_dashboard">
+                            <div class="dash weeks_dash">
+                                <div class="digit-count">
+                                    <div class="digit">0</div>
+                                    <div class="digit">0</div>
+                                </div>
+                                <span class="dash_title">weeks</span>
+                            </div>
+
+                            <div class="dash days_dash">
+                                <div class="digit-count">
+                                    <div class="digit">0</div>
+                                    <div class="digit">0</div>
+                                </div>
+                                <span class="dash_title">days</span>
+                            </div>
+
+                            <div class="dash hours_dash">
+                                <div class="digit-count">
+                                    <div class="digit">0</div>
+                                    <div class="digit">0</div>
+                                </div>
+                                <span class="dash_title">hours</span>
+                            </div>
+
+                            <div class="dash minutes_dash">
+                                <div class="digit-count">
+                                    <div class="digit">0</div>
+                                    <div class="digit">0</div>
+                                </div>
+                                <span class="dash_title">minutes</span>
+                            </div>
+
+                            <div class="dash seconds_dash">
+                                <div class="digit-count">
+                                    <div class="digit">0</div>
+                                    <div class="digit">0</div>
+                                </div>
+                                <span class="dash_title">seconds</span>
+                            </div>
+
+                        </div>
+                        <!-- Countdown dashboard end -->
+                                        
+                   </div>
+                </div>
+            </div>
+        </header>
+
+
+        <footer class='footer'>
+            <div class='container'>
+
+                <p class='copy'>© Appcorner, 2013. All rights reserved. Done by Olia Gozha</p>
+
+            </div>
+        </footer>
+
+    <!-- JavaScript-->
+        <!-- jQuery 1.9.1--> 
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/jquery-1.10.1.min.js"><\/script>')</script>
+        <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <!-- Bootstrap 3--> 
+        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+    
+    <!-- Page specific scritpts-->
+        <script src="js/jquery.lwtCountdown-1.0.js"></script>
+
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('#countdown_dashboard').countDown({
+                    targetDate: {
+                        'day':      10,
+                        'month':    5,
+                        'year':     2015,
+                        'hour':     11,
+                        'min':      0,
+                        'sec':      0
+                    }
+                });
+                
+            });
+        </script>
+
+</body>

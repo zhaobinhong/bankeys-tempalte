@@ -1,0 +1,247 @@
+@charset "utf-8";
+/* CSS Document */
+#style_panel #control {
+	background-color: #fff;
+	background-repeat:no-repeat;
+	background-position:9px 9px;
+	float: right;
+	height: 44px;
+	width: 44px;
+	display:block;
+	text-decoration:none;
+	color:#1d2024;
+	font-size:22px;
+	padding-left: 9px;
+    padding-top: 10px;
+	border:2px solid #1d2024;
+}
+
+#style_panel #control:hover {
+	background-color:#1d2024;
+	color:#fff; 
+}
+
+
+#style_panel .title h5 {
+	float: left;
+	font-family:'Droid Sans', sans-serif;
+	font-size:14px;
+	color: #fff;
+	padding:13px 0 0 15px;
+	text-transform:none;
+}
+#style_panel .title {
+	background-color: #fff;
+	height: 40px;
+	width:317px;
+}
+#style_panel .inner {
+	background-color: #F4F1E4;
+	float: left;
+	width: 170px;
+}
+#style_panel {
+	width:210px;
+	position:fixed;
+	top:20%;
+	left:-275px;
+	z-index:120;
+	-o-transition: all 350ms ease-in;
+	-webkit-transition: all 350ms ease-in;
+	-moz-transition: all 350ms ease-in;
+	transition: all 350ms ease-in;
+	
+}
+#style_panel.opens {
+	width:210px;
+	position:fixed;
+	top:20%;
+	left:0px;
+	
+}
+
+#style_panel .inner{
+	background-color:#fff;
+	border:2px solid #1d2024;
+	width:275px;
+	height:428px;
+	margin-top: -40px;
+}
+
+#style_panel .inner h6 {
+	padding-bottom: 0px;
+    padding-top: 25px;
+	font-family:'OpenSans', sans-serif;
+	font-weight:700;
+	font-size:14px;
+	color: #312e5d;
+	text-transform:uppercase;
+	text-align: left;
+	margin-left:30px;
+	margin-bottom: 4px;
+}
+#default, #backtothemef {
+	font-family: 'Bree Serif';
+	font-size: 13px;
+	text-transform: uppercase;
+	display:block;
+	margin:15px 0 15px 35px;
+	text-decoration:underline;
+	color: #495d60;
+}
+#style_panel .inner ul
+{
+margin:0 0 0 30px;
+overflow:hidden;
+}
+#style_panel .inner ul li
+{
+/*float:left;*/
+margin:5px 5px 0 0;
+padding-left: 0;
+}
+#style_panel .inner #color li a{
+	display:block;
+	padding-left: 10px;
+}
+
+#style_panel .inner #color li a span{
+	display:inline-block;
+	background-color: #77D0C4;
+	width: 65px;
+	height: 20px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	margin-right:5px;
+	margin-top: 6px;
+}
+
+#style_panel .inner #color li a .one {
+	background-color: #312e5c;
+}
+
+#style_panel .inner #color li a .two {
+	background-color: #77D0C4;
+}
+
+#style_panel .inner #color li a .three {
+	background-color: #eb4b73;
+}
+
+#style_panel .inner #color li .blue .one {
+	background-color: #312e5c;
+}
+
+#style_panel .inner #color li .dark-blue .one{
+	background-color: #166f9d;
+}
+
+#style_panel .inner #color li .blue .two{
+	background-color: #20cee8;
+}
+
+#style_panel .inner #color li .dark-blue .two{
+	background-color: #6ac7f7;
+}
+
+#style_panel .inner #color li .blue .three{
+	background-color: #ff971d;
+}
+
+#style_panel .inner #color li .dark-blue .three{
+	background-color: #86c06a;
+}
+
+#style_panel .inner #background li{
+	display:block;
+}
+
+#style_panel .inner #color li,
+#style_panel .inner #pages li{
+	width: 186px;
+	padding-left: 0px;
+}
+
+#style_panel .inner #color li a,
+#style_panel .inner #pages li{
+	border: 3px solid #e9e8ed;
+	background: none;
+}
+
+#style_panel .inner #background li a:hover,
+#style_panel .inner #color li a:hover,
+#style_panel .inner #background li a.activ,
+#style_panel .inner #color li a.activ,
+#style_panel .inner #pages li:hover{
+	border-color:#acabaf; 
+}
+
+#style_panel .inner #background li a{
+	
+	width: 186px;
+	height: 38px;
+	display: inline-block;
+	border: 3px solid #e9e8ed;
+}
+
+#style_panel .inner #background li .circle{
+	background-color: #fff;
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	border: solid 1px #e0dfe4;
+	margin:4px 7px 0;
+}
+
+
+#style_panel .inner #background li .dark span{
+	background-color: #1d2024;
+	border:none;
+}
+
+
+#style_panel .inner #background li p,
+#style_panel .inner #color li p,
+#style_panel .inner #pages li a{
+	font-family:'OpenSans', sans-serif;
+	font-size:12px;
+	color: #312e5d;
+	text-align:left;
+	text-decoration:none;
+	display: inline-block;
+	margin: 7px 13px 0px 5px;
+	vertical-align: top;
+}
+
+#style_panel .inner #background li p{
+	margin: 7px 5px 0px 7px;
+}
+
+#style_panel .inner #color li p{
+	margin: 5px 13px 2px 5px;
+}
+
+#style_panel .inner #pages li a{
+	margin: 4px 13px 2px 10px;
+	display: block;
+}
+
+#style_panel .inner #color li a:hover,
+#style_panel .inner #color li a:focus{
+	text-decoration:none;
+}
+
+#style_panel .inner #color li.active{
+	border-color:#acabaf; 
+}
+
+.pattern-default{
+	background-image: url("../images/patterns/greyzz_@2X.png");
+    background-position: center center;
+    background-repeat: repeat;
+    background-size: 149px 139px;
+}
